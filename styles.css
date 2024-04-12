@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
@@ -9,4 +9,43 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(83, 83, 83);
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand {
+color: whitesmoke;
+}
+
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu .active {
+
+}
+
+.menu a:hover {
+    
 }
