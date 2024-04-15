@@ -21,10 +21,12 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
+    padding: 2em;
 }
 
 .brand {
 color: whitesmoke;
+margin-top: -7px;
 }
 
 .menu {
@@ -40,6 +42,7 @@ color: whitesmoke;
 .menu a {
     color: white;
     text-decoration: none;
+    padding: 10px 10px;
 }
 
 .menu .active {
@@ -47,5 +50,44 @@ color: whitesmoke;
 }
 
 .menu a:hover {
+    border-radius: 10%;
+    background-color: aqua;
+    color: rgb(83, 83, 83);
+    transition: ease-in .2s;
     
+}
+
+.main {
+    margin: 0 auto;
+    width: 96vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+
+}
+
+.download-cv {
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 4px 4px 11px -5px rgba(102, 231, 200, .69);
+}
+
+.download-cv:hover {
+    background-color: white;
+    box-shadow: none;
+
+}
+
+.main img {
+    width: 350px;
+    border: 7px;
 }
