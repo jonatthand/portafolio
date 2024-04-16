@@ -91,3 +91,57 @@ h1 {
     width: 350px;
     border: 7px;
 }
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+}
+
+.about img {
+    width: 100%;
+    grid-column: 1/5;
+}
+
+.about-info {
+    grid-column: 5/10;
+    padding: 2em;
+}
+
+.about-info h2 {
+    font-size: 2em;
+    color: rgb(83, 83, 83)
+}
+
+.dividier {
+    height: 4px;
+    width: 60px;
+    background-color: aqua;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.about p {
+    margin-bottom: 2em;
+}
+
+.portfolio {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(83, 83, 83);
+    color: white;
+}
+
+.portfolio-headings {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5em;
+    ;
+}
+
+.portfolio-headings h2 {
+    font-size: 2.5em;
+}
