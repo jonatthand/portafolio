@@ -128,9 +128,7 @@ h1 {
 
 .portfolio {
     width: 100vw;
-    height: 100vh;
-    background-color: rgb(83, 83, 83);
-    color: white;
+    background-color: gray;
 }
 
 .portfolio-headings {
