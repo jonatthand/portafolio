@@ -1,8 +1,3 @@
-window.addEventListener("scroll", function(){
-    var nav = this.document.querySelector("nav");
-    nav.classList.toggle("abajo",window.scrollY>0);
-})
-
 let nextBtn = document.querySelector('.next')
 let prevBtn = document.querySelector('.prev')
 
