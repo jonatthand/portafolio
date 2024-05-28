@@ -227,7 +227,7 @@ h6 {
 
 .about {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(50% 50%);
     width: 100vw;
     align-items: center;
     background: url(./img/fondo4.png);
@@ -236,21 +236,23 @@ h6 {
     border: 1px solid #ccc;
 }
 
-.about img {
-    width: 30vw;    
-    border: 1px solid #ccc;
+.about .foto-about {
+    width: 25vw;    
+    margin: 0% 0% 0% 25%;
+    brorder: 1px solid #ccc;
+    filter:drop-shadow(20px 7px 50px rgb(128, 127, 127)); 
 }
 
 .about-info {
     grid-column: 5/10;
     padding: 2em;
-    padding: 0% 20% 0% 10%;
+    padding: 5% 20% 5% 0%;
     border: 1px solid #ccc;
 }
 
 .about-info h2 {
     padding: 0ch 0% 0% 0%;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     color: rgb(255, 255, 255);
     border: 1px solid #ccc;
 }
@@ -264,27 +266,57 @@ h6 {
 }
 
 .container {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border: 1px solid #ccc;  
-    max-width: 50vw;
-    margin: 20px auto;
+    max-width: 40vw;
+    margin: 2vw auto;
+    padding: px;
 }
 
 .container img {
     width: 7vw;
-    height: auto;    
+    height: auto;   
+    filter:drop-shadow(3px 7px 10px white); 
 }
 .container p {
-    flex-grow: 1;
-    margin: 0 20px;
-    text-align: center;
+    flex-grow: 100;
+    margin: 0 px;
+    text-align: justify;
 }
+
+.container span {   
+    line-height: 2;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 0% 1% 0% 0%;    
+    background-image: linear-gradient(to right, hsl(238, 67%, 90%), #ffffff);
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0px 0px 50px rgb(255, 255, 255);  
+}
+
+
 .container button {
-    padding: 10px 20px;
+    display: flex;
+    margin: 0px 0px 8vw 0px;
+    padding: 4px 3px 0px 5px;
     cursor: pointer;
-    
+    background-image: linear-gradient(to right, #999999, #f3f3f3); /* Gradiente plateado */
+    border: none;
+    border-radius: 30%;
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: 4px 4px 11px -5px rgba(102, 231, 200, .69);
+    font-weight: bold;
+    transition: transform 0.2s ease;    
+}
+
+.container button img {
+    width: 2vw;
+    border: none;
 }
 
 .about p {
@@ -296,7 +328,7 @@ h6 {
 }
 
 .about .about-info .download-cv {
-margin: 2% 0% 0% 0%;
+margin: 5% 0% 5% 0%;
 }
 /*-----------------------------------------------portafolio anulado por el momento------------------------
 
@@ -673,6 +705,7 @@ margin: 2% 0% 0% 0%;
     padding: 0% 0% 0% 0%;
     background-color: #000;
     font-size: 3em;
+    border: 1px solid #ccc;
 
 }
 
@@ -684,19 +717,25 @@ margin: 2% 0% 0% 0%;
     padding: 8em;    
     background-size: cover;
     background-position: center center;   
+    
 }
 
 .container-contact img {
-    margin: 10% 0% 0% 0%;
-    width: 30vw;
-    height: 30vw;
+    margin: 0% 0% 0% 10%;
+    padding: 0% 0% 0% 0%;    
+    width: 25vw;
+    height: 35vw;
     bottom: 0px;
+    border: 1px solid #ccc;
+    filter:drop-shadow(10px 3px 10px rgb(128, 127, 127)); 
+    
 }
 
 .contact-form {
     border: 0% 0% 0% 0%;
     margin: -40% 0% 0% 0%;
     padding: 0% 0% 0% 0%;
+    border: 1px solid #ccc;
 }
 
 .form {
@@ -704,6 +743,7 @@ margin: 2% 0% 0% 0%;
     flex-direction: column;
     width: 30vw;
     margin-top: 2em;
+    border: 1px solid #ccc;
 }
 
 .form input {
@@ -713,6 +753,8 @@ margin: 2% 0% 0% 0%;
     border: none;
     border-bottom: 1px solid rgb(209, 209, 209);
     color: rgb(158, 158, 158);
+    border: 1px solid #bb0000;
+    
 }
 
 .form textarea {
@@ -721,6 +763,7 @@ margin: 2% 0% 0% 0%;
     color: rgb(255, 255, 255);
     padding: 1em;
     border: 1px solid black;
+    border: 1px solid #00e1ff;
 }
 
 .btn-submit {
@@ -733,6 +776,7 @@ margin: 2% 0% 0% 0%;
     cursor: pointer;
     box-shadow: 4px 4px 11px -5px rgba(102, 231, 200, .69);
     font-weight: bold;
+    
 }
 
 .btn-submit:hover {
