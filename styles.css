@@ -19,7 +19,8 @@ body {
     color: whitesmoke;
     background: url(/img/fondooscuro2.png);   
     background-size: cover;
-    background-position: center center;    
+    background-position: center center;      
+    border: 1px solid #ccc;  
 }
 
 .navbar {
@@ -33,6 +34,7 @@ body {
     z-index: 10;
     padding: 30px 20%;
     z-index: 101;
+    border: 1px solid #ccc;
 }
 
 nav.abajo {    
@@ -40,8 +42,7 @@ nav.abajo {
     background: rgb(0, 0, 0);
     padding: 1% 10% 1% 10%;
     border-radius: 0px 0px 20px 20px;
-    margin: 0% 10% 10% 0%;
-    
+    margin: 0% 10% 10% 0%;       
 }
 
 nav.abajo .brand {
@@ -59,30 +60,33 @@ nav.abajo .menu a {
     background-clip: text;
     color: transparent;
     text-shadow: 0px 0px 50px rgb(255, 255, 255);
+    border: 1px solid #ccc;
 }
 
 .menu {
     display: flex;
     width: 50%;
     justify-content: space-around;
+    border: 1px solid #ccc;
 }
 
 .menu li {
     list-style: none;
+    border: 1px solid #ccc;
 }
 
 .menu a {
     color: white;
     text-decoration: none;
     padding: 10px 10px;
+    border: 1px solid #ccc;
 }
 
 .menu a:hover {
     border-radius: 10%;
     background-color: rgb(201, 201, 201);
     color: rgb(83, 83, 83);
-    transition: ease-in .2s;
-    
+    transition: ease-in .2s;    
 }
 
 .main {
@@ -92,6 +96,7 @@ nav.abajo .menu a {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;     
+    border: 1px solid #ccc;
 }
 
 h1 {
@@ -103,7 +108,7 @@ h1 {
     color: transparent;
     text-shadow: 0px 0px 50px rgb(255, 255, 255);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+    border: 1px solid #ccc;
 }
 
 h2 {
@@ -114,8 +119,6 @@ h2 {
     background-clip: text;
     color: transparent;
     text-shadow: 0px 0px 50px rgb(255, 255, 255);
-    
-
 }
 
 h3 {
@@ -155,6 +158,7 @@ h6 {
     margin: 5% 20% 5% 10%;
     padding: 0% 0% 0% 10% ;
     font-size: 1.2vw;
+    border: 1px solid #ccc;
 }
 
 .info-content .animado {
@@ -165,10 +169,12 @@ h6 {
     border-right: 4px solid;
     width: 20.3ch;
     margin: 2% 0% 0% 20%;
+    
 
     animation: typing 1.5s steps(20),
     blink .5s infinite step-end alternate;
     overflow: hidden;
+    
 }
 
 @keyframes typing {
@@ -186,7 +192,7 @@ h6 {
     background-image: linear-gradient(to right, #999999, #f3f3f3); /* Gradiente plateado */
     border: none;
     border-radius: 30px;
-    font-size: 22px;
+    font-size: 2vw;
     cursor: pointer;
     box-shadow: 4px 4px 11px -5px rgba(102, 231, 200, .69);
     font-weight: bold;
@@ -223,6 +229,7 @@ h6 {
     width: 45%;
     border: 70px;
     margin: 15% 20% 10% 20%;
+    border: 1px solid #ccc;
 }
 
 .about {
@@ -701,10 +708,10 @@ margin: 5% 0% 5% 0%;
 
 .contact-headings h2{
     border: 0% 0% 0% 0%;
-    margin: -35% 0% 0% 0%;
+    margin: -40% 0% 0% 0%;
     padding: 0% 0% 0% 0%;
     background-color: #000;
-    font-size: 3em;
+    font-size: 3vw;
     border: 1px solid #ccc;
 
 }
@@ -722,7 +729,7 @@ margin: 5% 0% 5% 0%;
 
 .container-contact img {
     margin: 0% 0% 0% 10%;
-    padding: 0% 0% 0% 0%;    
+    padding: -70% 0% 0% 0%;    
     width: 25vw;
     height: 35vw;
     bottom: 0px;
@@ -733,7 +740,7 @@ margin: 5% 0% 5% 0%;
 
 .contact-form {
     border: 0% 0% 0% 0%;
-    margin: -40% 0% 0% 0%;
+    margin: -70% 0% 0% 0%;
     padding: 0% 0% 0% 0%;
     border: 1px solid #ccc;
 }
@@ -741,34 +748,46 @@ margin: 5% 0% 5% 0%;
 .form {
     display: flex;
     flex-direction: column;
+    height: 30vw;
     width: 30vw;
     margin-top: 2em;
-    border: 1px solid #ccc;
+    margin: 3% 0% 0% 0%;
+    border: 5px solid #ccc;    
+    border-radius: 5%;    
 }
 
 .form input {
-    padding: 10px 20px;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 10px;
+    margin: 0% 5% 0% 5%;
+    padding: 10px 0px;    
     margin-bottom: 1em;
     background: none;
-    border: none;
-    border-bottom: 1px solid rgb(209, 209, 209);
+    border: none;    
     color: rgb(158, 158, 158);
-    border: 1px solid #bb0000;
-    
+    border-bottom: 4px solid #ccc;      
+    font-size: 1.5vw;
 }
 
+
+
 .form textarea {
-    height: 150px;
+    height: 350px;
     background: none;
     color: rgb(255, 255, 255);
     padding: 1em;
-    border: 1px solid black;
-    border: 1px solid #00e1ff;
+    margin: 0% 5% 0% 5%;
+    border:none;
+    border-bottom: 4px solid #ccc; 
+    font-size: 1.5em;
+    resize: none;
 }
 
 .btn-submit {
     padding: 10px 20px;
     margin: 1em;
+    text-align: center;
     background-image: linear-gradient(to right, #999999, #f3f3f3); /* Gradiente plateado */
     border: none;
     border-radius: 20px;
@@ -776,7 +795,7 @@ margin: 5% 0% 5% 0%;
     cursor: pointer;
     box-shadow: 4px 4px 11px -5px rgba(102, 231, 200, .69);
     font-weight: bold;
-    
+    width: 30%;
 }
 
 .btn-submit:hover {
@@ -810,12 +829,12 @@ margin: 5% 0% 5% 0%;
 }
 
 .footer-content h6 {
-    font-size: 2vw;
+    font-size: 4vw;
     margin: 10px 0; /* Margen para separación */
 }
 
 .footer-content .fullstack {
-    font-size: 1vw;
+    font-size: 2.5vw;
     margin: 10px 0; /* Margen para separación */
 }
 
@@ -828,7 +847,7 @@ margin: 5% 0% 5% 0%;
 
 .sotial-network a i {
     margin-top: 10px;    
-    font-size: 30px;
+    font-size: 3vw;
     margin: 0 10px;
     color: #fff;
     text-decoration: none;
