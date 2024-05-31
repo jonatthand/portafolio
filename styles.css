@@ -20,7 +20,7 @@ body {
     background: url(/img/fondooscuro2.png);   
     background-size: cover;
     background-position: center center;      
-    border: 1px solid #ccc;  
+      
 }
 
 .navbar {
@@ -34,7 +34,7 @@ body {
     z-index: 10;
     padding: 30px 20%;
     z-index: 101;
-    border: 1px solid #ccc;
+    
 }
 
 nav.abajo {    
@@ -60,26 +60,26 @@ nav.abajo .menu a {
     background-clip: text;
     color: transparent;
     text-shadow: 0px 0px 50px rgb(255, 255, 255);
-    border: 1px solid #ccc;
+    
 }
 
 .menu {
     display: flex;
     width: 50%;
     justify-content: space-around;
-    border: 1px solid #ccc;
+    
 }
 
 .menu li {
     list-style: none;
-    border: 1px solid #ccc;
+    
 }
 
 .menu a {
     color: white;
     text-decoration: none;
     padding: 10px 10px;
-    border: 1px solid #ccc;
+   
 }
 
 .menu a:hover {
@@ -96,7 +96,7 @@ nav.abajo .menu a {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;     
-    border: 1px solid #ccc;
+    
 }
 
 h1 {
@@ -108,7 +108,7 @@ h1 {
     color: transparent;
     text-shadow: 0px 0px 50px rgb(255, 255, 255);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border: 1px solid #ccc;
+    
 }
 
 h2 {
@@ -158,7 +158,7 @@ h6 {
     margin: 5% 20% 5% 10%;
     padding: 0% 0% 0% 10% ;
     font-size: 1.2vw;
-    border: 1px solid #ccc;
+    
 }
 
 .info-content .animado {
@@ -229,7 +229,7 @@ h6 {
     width: 45%;
     border: 70px;
     margin: 15% 20% 10% 20%;
-    border: 1px solid #ccc;
+    
 }
 
 .about {
