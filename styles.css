@@ -20,7 +20,6 @@ body {
     background: url(/img/fondooscuro2.png);   
     background-size: cover;
     background-position: center center;      
-      
 }
 
 .navbar {
@@ -59,15 +58,13 @@ nav.abajo .menu a {
     background-image: linear-gradient(to right, hsl(238, 67%, 90%), #ffffff);
     background-clip: text;
     color: transparent;
-    text-shadow: 0px 0px 50px rgb(255, 255, 255);
-    
+    text-shadow: 0px 0px 50px rgb(255, 255, 255);    
 }
 
 .menu {
     display: flex;
     width: 50%;
-    justify-content: space-around;
-    
+    justify-content: space-around;    
 }
 
 .menu li {
@@ -78,8 +75,7 @@ nav.abajo .menu a {
 .menu a {
     color: white;
     text-decoration: none;
-    padding: 10px 10px;
-   
+    padding: 10px 10px;   
 }
 
 .menu a:hover {
@@ -187,7 +183,7 @@ h6 {
 
 
 .download-cv {
-    padding: 10px 25px;
+    padding: 1px 25px;
     margin: 10px 0% 0% 20%;
     background-image: linear-gradient(to right, #999999, #f3f3f3); /* Gradiente plateado */
     border: none;
@@ -200,12 +196,12 @@ h6 {
 }
 
 .work {
-    padding: 5px 16px;
-    margin: 10px 0% 0% 2%;
+    padding: 0.2vw 0.4vw;
+    margin: 0px 0% 0% 2%;
     background-image: linear-gradient(to right, #999999, #f3f3f3); /* Gradiente plateado */
     border: none;
-    border-radius: 20px;
-    font-size: 26px;
+    border-radius: 5px;
+    font-size: 1vw;
     cursor: pointer;
     
     font-weight: bold;
