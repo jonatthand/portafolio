@@ -12,26 +12,18 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/*-----------------------------ESTILOS DE LETRA-------------------------------------*/
 h1 {
     font-size: 5vw;
     margin: 0% 0% 0% 0%;
-    padding: 5% 0% 1% 20%;
-    background-image: linear-gradient(to right, hsl(238, 67%, 90%), #ffffff);
-    background-clip: text;
-    color: transparent;
-    text-shadow: 0px 0px 50px rgb(255, 255, 255);
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border: 1px solid #ccc;
+    padding: 5% 0% 1% 20%;      
 }
 
 h2 {
     font-size: 2vw;
+    color: white;
     margin: 0% 1% 0% 0%;
-    padding: 0ch 0% 0% 20%;
-    background-image: linear-gradient(to right, hsl(238, 67%, 90%), #ffffff);
-    background-clip: text;
-    color: transparent;
-    text-shadow: 0px 0px 50px rgb(255, 255, 255);
+    padding: 0ch 0% 0% 20%;    
 }
 
 h3 {
@@ -41,31 +33,24 @@ h3 {
 
 h4 {
     font-size: 1.5vw;;
-    color: white;
-    background-image: linear-gradient(to right, hsl(238, 67%, 90%), #ffffff);
-    background-clip: text;
-    color: transparent;
-    text-shadow: 0px 0px 50px rgb(255, 255, 255);
+    color: white;   
 }
 
 h5 {
     font-size: 2vw;
-    margin: 0% 1% 0% 0%;
-    padding: 0ch 0% 0% 20%;
-    background-image: linear-gradient(to right, hsl(238, 67%, 90%), #ffffff);
-    background-clip: text;
     color: transparent;
-    text-shadow: 0px 0px 50px rgb(255, 255, 255);
+    margin: 0% 1% 0% 0%;
+    padding: 0ch 0% 0% 20%;  
     
 
 }
 
 h6 {       
-    background-image: linear-gradient(to right, hsl(238, 67%, 90%), #ffffff);
-    background-clip: text;
-    color: transparent;
-    text-shadow: 0px 0px 50px rgb(255, 255, 255);
+    color: white;   
 }
+
+/*---------------------------------/ESTILOS DE LETRAS-----------------------------*/
+/*--------------------------------MENU STICKY--------------------------------------*/
 
 .wrapper {
     width: 100vw;
@@ -93,7 +78,7 @@ h6 {
 }
 
 nav.abajo {    
-    display: flexbox;
+    display: flex;
     background: rgb(0, 0, 0);
     padding: 0% 10% 1% 20%;
     border-radius: 0px 0px 20px 20px;
@@ -112,11 +97,7 @@ nav.abajo .menu a {
     display: flex;   
     color: whitesmoke;
     font-size: 35px;
-    margin-left: -20%;
-    background-image: linear-gradient(to right, hsl(238, 67%, 90%), #ffffff);
-    background-clip: text;
-    color: transparent;
-    text-shadow: 0px 0px 50px rgb(255, 255, 255);  
+    margin-left: -20%;        
     white-space: nowrap;    
     border: 1px solid #ccc;    
 }
@@ -148,7 +129,8 @@ nav.abajo .menu a {
     color: rgb(83, 83, 83);
     transition: ease-in .2s;    
 }
-
+/*-----------------------/MENU STICKY----------------------------------------*/
+/*-----------------------PRIMER SEGMENTO PRESENTACION-----------------------------*/
 .main {
     margin: 0 auto;
     width: 96vw;
@@ -178,17 +160,15 @@ nav.abajo .menu a {
     border: 1px solid #ccc;
 }
 
-.info-content h1 {
+.info-content h1 {    
     display: block;
+    color: white;
     font-size: 80px;
     margin: 0% -10% 0% 0%;
-    padding: 0% 0% 0% 0%;
-    background-image: linear-gradient(to right, hsl(238, 67%, 90%), #ffffff);
-    background-clip: text;
-    color: transparent;
-    text-shadow: 0px 0px 50px rgb(255, 255, 255);
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border: 1px solid #ccc;
+    padding: 0% 0% 0% 0%;  
+    font-family:Impact, sans-serif;      
+    border: 1px solid #ffffff; 
+    
 }
 
 .info-content .animado {
@@ -222,30 +202,33 @@ nav.abajo .menu a {
     background-image: linear-gradient(to right, #999999, #f3f3f3); /* Gradiente plateado */
     border: none;
     border-radius: 30px;
-    font-size: 2vw;
+    font-size: 30px;
     cursor: pointer;
-    box-shadow: 4px 4px 11px -5px rgba(102, 231, 200, .69);
+    box-shadow: 4px 4px 11px -5px rgba(255, 255, 255, 0.69);
     font-weight: bold;
     transition: transform 0.2s ease;
+    color: rgb(36, 36, 36);    
 }
 
-.work {
+.info-content .work {
+    display: inline-block;
     padding: 0.2vw 0.4vw;
     margin: 0px 0% 0% 2%;
     background-image: linear-gradient(to right, #999999, #f3f3f3); /* Gradiente plateado */
     border: none;
     border-radius: 5px;
-    font-size: 1vw;
+    font-size: 25px;
     cursor: pointer;
-    
+    white-space: nowrap;
     font-weight: bold;
     transition: transform 0.2s ease;
+    color: rgb(36, 36, 36);    
 }
 
 .download-cv:hover {
     background-image: linear-gradient(to right, #dbdbdb, #a8a8a8);
     box-shadow: none;    
-    transform: scale(1.2); /* Escala el botón al 105% del tamaño original */
+    transform: scale(1.1); /* Escala el botón al 105% del tamaño original */
 }
 
 .work:hover {
@@ -254,8 +237,8 @@ nav.abajo .menu a {
     transform: scale(1.3); /* Escala el botón al 105% del tamaño original */
 
 }
-
-
+/*-----------------------------------------/PRIMER SEGMENTO PRESENTACION---------------------------------------------*/
+/*-------------------------------------------SEGUNDO SEGMENTO---------------------------------------------*/
 
 .about {
     display: grid;
@@ -315,7 +298,7 @@ nav.abajo .menu a {
 }
 .container p {
     flex-grow: 100;
-    margin: 0 px;
+    margin: 0px;
     text-align: justify;
 }
 
@@ -323,11 +306,8 @@ nav.abajo .menu a {
     line-height: 2;
     font-size: 2vw;
     font-weight: 700;
-    margin: 0% 1% 0% 0%;    
-    background-image: linear-gradient(to right, hsl(238, 67%, 90%), #ffffff);
-    background-clip: text;
-    color: transparent;
-    text-shadow: 0px 0px 50px rgb(255, 255, 255);  
+    margin: 0% 1% 0% 0%;        
+    color: white;    
 }
 
 
@@ -341,7 +321,7 @@ nav.abajo .menu a {
     border-radius: 30%;
     font-size: 22px;
     cursor: pointer;
-    box-shadow: 4px 4px 11px -5px rgba(102, 231, 200, .69);
+    box-shadow: 4px 4px 11px -5px rgba(155, 155, 155, 0.69);
     font-weight: bold;
     transition: transform 0.2s ease;    
 }
@@ -725,7 +705,7 @@ margin: 5% 0% 5% 0%;
 
 
 
----------------------slider----------------------------------------------*/
+/*---------------------slider----------------------------------------------*/
 
 .contact-section {
     background: #000;
