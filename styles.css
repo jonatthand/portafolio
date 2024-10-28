@@ -256,7 +256,7 @@ nav.abajo .menu a {
 .about .foto-about {
     width: 25vw;    
     margin: 0% 0% 0% 25%;
-    brorder: 1px solid #ccc;
+    border: 1px solid #ccc;
     filter:drop-shadow(20px 7px 50px rgb(128, 127, 127)); 
 }
 
@@ -288,10 +288,11 @@ nav.abajo .menu a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid #ccc;  
     max-width: 50vw;
+    height: 350px;
     margin: 2vw auto;
     padding: 0px 0px 0px 0px;
+    border: 1px solid #ccc;  
 }
 
 .container .next {
@@ -313,59 +314,7 @@ nav.abajo .menu a {
     margin: 0px 0px 0px 0px;
 } 
 
-/*EL ORIGINALLLLLL .container {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border: 1px solid #ccc;  
-    max-width: 40vw;
-    margin: 2vw auto;
-    padding: 0px 0px 0px 0px;
-}
 
-EL ORIGINALLLLL .container .next {
-    display: static;
-    padding: 10px 10px;
-    background-image: linear-gradient(to right, #999999, #f3f3f3); /* Gradiente plateado *//*
-    box-shadow: 5px 5px 11px -5px rgba(255, 255, 255, 0.69);
-    border: none;
-    border-radius: 10px;
-    font-size: 25px;
-    cursor: pointer;
-    white-space: nowrap;
-    font-weight: bold;
-    transition: transform 0.2s ease;
-    color: rgb(36, 36, 36);    
-    border: 1px 1px 10px 1px solid #ccc; 
-    margin: -180px 10px 0px 0px;
-} 
-
-/*EL DE IA .container {
-    position: relative;    
-    align-items: center;
-    justify-content: space-between;
-    border: 1px solid #ccc;  
-    max-width: 40vw;
-    margin: 2vw auto;
-    padding: 0px 0px 0px 0px;
-    width: 100%;
-    height: 500px;
-    overflow: hidden;
-}
-
-EL DE IA .container .next {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: #000;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    z-index: 3;
-} */
 
 .container img {
     position: absolute;
@@ -373,7 +322,7 @@ EL DE IA .container .next {
     width: 200px;
     height: 200px;
     align-items: center;
-    top: 10%;
+    top: 12%;
     left: 0;
     z-index: 1;   
     
@@ -793,7 +742,7 @@ margin: 5% 0% 5% 0%;
 
 
 
-/*---------------------slider----------------------------------------------*/
+/*-----------------------------/slider----------------------------------------------*/
 
 .contact-section {
     background: #000;
@@ -996,3 +945,61 @@ margin: 5% 0% 5% 0%;
 
 
 */
+
+
+
+
+
+/*EL ORIGINALLLLLL LINEA 340 POR AHI SEGUNDO SEGMENTO .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;  
+    max-width: 40vw;
+    margin: 2vw auto;
+    padding: 0px 0px 0px 0px;
+}
+
+EL ORIGINALLLLL .container .next {
+    display: static;
+    padding: 10px 10px;
+    background-image: linear-gradient(to right, #999999, #f3f3f3); /* Gradiente plateado *//*
+    box-shadow: 5px 5px 11px -5px rgba(255, 255, 255, 0.69);
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    white-space: nowrap;
+    font-weight: bold;
+    transition: transform 0.2s ease;
+    color: rgb(36, 36, 36);    
+    border: 1px 1px 10px 1px solid #ccc; 
+    margin: -180px 10px 0px 0px;
+} 
+
+/*EL DE IA .container {
+    position: relative;    
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;  
+    max-width: 40vw;
+    margin: 2vw auto;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+EL DE IA .container .next {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 3;
+} */
